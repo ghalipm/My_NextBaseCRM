@@ -28,5 +28,7 @@ public class MainPage {
     public static final String searchMenuItemXpath= "(//div[.='Search'])/..//a/span/span";
 
     public static final String timeAndReportsTabXpath="(//a//span[@class='menu-item-link-text'])[9]";
+    //public static final String timeAndReportsTabXpath="//a[@title='Time and Reports']";
+
 
 }

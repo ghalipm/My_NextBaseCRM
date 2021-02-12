@@ -1,5 +1,5 @@
 package com.nextBaseCRM.Pages;
-
+// after creating folders, setting up utils, config, pom files update pom first!
 import com.nextBaseCRM.Utils.BrowserUtils;
 import com.nextBaseCRM.Utils.ConfigurationReader;
 import com.nextBaseCRM.Utils.Driver;

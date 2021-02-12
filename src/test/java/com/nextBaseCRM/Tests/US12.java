@@ -28,12 +28,7 @@ public class US12 extends TestBase{
 
         // create an array of search keywords, then use a for each loop
         // thanks to the loop idea, TC1, TC2, TC3 can be made into one TC.
-        /*
-          US#12. As a user, I should be able to use ""Filter and search"" functionality on Active Stream."
-                1. Verify users search by type-in keyword to search previous posts
-                2. Verify users can search by editing Date, Type, Author, To and more default dropdowns.
-                3. Users should be able to Filter by work, favorites, my activity, announcement and workflow. "
-         */
+
         // Since we do not have a list of previously posted anything, it is better to use "Message" module send out messages
         // and use "Poll" module to create poll etc using certain words, then keep these words in an array and search them !
         String[] keyWordArray = new String[]{"Employee", "hr8", "To", "Today", "Yesterday","February 4", "favorite","Announcement","planning", "Sprint", "hotfix","Meeting"};

@@ -13,10 +13,17 @@ public class US13 { // this class does not extend the TestBase!
 
     @Test
     public void login_with_credentials_test() {
+        // userCredentials: if different userNames and different passwords
+        String[][] users = {{"userHr", "password"}, {"userMarketing", "password"}, {"userHelpDesk","password"}};
+        for (String[] user : users) {
+            LoginPage.loginWithCredentials(user[0], user[1]);
+
+        /*
         String[] userNameArray = {"userHr", "userMarketing", "userHelpDesk"}; // username array.
-        String[] passwordArray = {"password", "password", "password"}; // password array.
         for (String each : userNameArray) {
             LoginPage.loginWithCredentials(each, "password");// different userNames, but the same Passwords
+           */
+
             Driver.getDriver().findElement(By.xpath(MainPage.timeAndReportsTabXpath)).click();
             Assert.assertTrue(Driver.getDriver().getTitle().contains("Absence Chart"));
             // go to the username and click to see the option logout

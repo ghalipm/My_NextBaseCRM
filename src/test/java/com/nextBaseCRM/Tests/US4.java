@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class US4_Poll extends TestBase {
+public class US4 extends TestBase {
 
     // logging in
 
@@ -60,3 +60,11 @@ public class US4_Poll extends TestBase {
 
 
 }
+
+/*
+US#4. As a user, I should be able to create a poll
+    1. Verify users can write a poll message title with question & answer.
+    2. Verify users can check ""allow multiple Choice""
+    3. Verify users can add questions
+    4. Verify users can cancel poll"
+ */
