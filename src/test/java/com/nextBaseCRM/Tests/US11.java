@@ -33,7 +33,7 @@ public class US11 extends TestBase{
         absenceWeek.isDisplayed();
         BrowserUtils.sleep(1);
 
-        WebElement absenceMonth=Driver.getDriver().findElement(By.cssSelector(US11Page.absenceDayCssSel));
+        WebElement absenceMonth=Driver.getDriver().findElement(By.cssSelector(US11Page.absenceMonthCssSel));
         JavascriptExecutor executorMonth = (JavascriptExecutor) Driver.getDriver();
         executorMonth.executeScript("arguments[0].click();", absenceMonth);
         absenceMonth.isDisplayed();
